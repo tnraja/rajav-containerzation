@@ -1,0 +1,11 @@
+---
+# 1. MONGO DATABASE DEPLOYMENT
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "shopnow.fullname" . }}-mongodb
+  labels:
+    app.kubernetes.io/name: mongodb
+    helm.sh/chart: {{ include "shopnow.chart" . }}
+spec:
+  replicas

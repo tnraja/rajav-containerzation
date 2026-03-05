@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: your-ecr-repo/frontend:latest
+        image: 975050024946.dkr.ecr.us-east-1.amazonaws.com/shopnow-frontend/frontend:latest
         ports:
         - containerPort: 3000
         env:
@@ -22,11 +22,19 @@ spec:
           value: "http://backend-service:5000"
         resources:
           requests:
+<<<<<<< HEAD
             memory: "256Mi"
             cpu: "200m"
           limits:
             memory: "512Mi"
             cpu: "500m"
+=======
+            memory: "128Mi"
+            cpu: "100m"
+          limits:
+            memory: "256Mi"
+            cpu: "200m"
+>>>>>>> 11232de (Initial commit - shopNow project)
 ---
 apiVersion: v1
 kind: Service

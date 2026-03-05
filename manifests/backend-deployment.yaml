@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: 975050024946.dkr.ecr.us-east-1.amazonaws.com/rajav-containerzation/backend:latest
+        image: 975050024946.dkr.ecr.us-east-1.amazonaws.com/shopnow-backend/backend:latest
         ports:
         - containerPort: 5000
         env:

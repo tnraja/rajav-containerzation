@@ -1,0 +1,8 @@
+replicaCount: 3
+image:
+  backend:  975050024946.dkr.ecr.us-east-1.amazonaws.com/shopnow-backend/backend:latest
+  frontend: 975050024946.dkr.ecr.us-east-1.amazonaws.com/shopnow-frontend/frontend:latest
+mongo:
+  size: 5Gi
+ingress:
+  host: shopnow.yourdomain.com
