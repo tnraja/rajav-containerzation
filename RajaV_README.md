@@ -1,6 +1,8 @@
 
 # MERN stack e-commerce application (shopNow) using Kubernetes, Helm charts, and Jenkins CI/CD pipeline
 
+# Clone Repo - https://github.com/mohanDevOps-arch/shopNow
+
 # VM Structure
 
 <img width="940" height="362" alt="image" src="https://github.com/user-attachments/assets/7493e191-719b-440b-923a-e91f2bfcd373" />
